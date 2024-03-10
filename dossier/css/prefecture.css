@@ -1,0 +1,10 @@
+.fakeimg {
+    width: 100%;
+    padding: 20px;
+    background-image: url(../assets/images/23775840365_status_8cc3ea3688984e4d8fc4dfee0b68fdd5.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+}

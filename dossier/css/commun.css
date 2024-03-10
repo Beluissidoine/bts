@@ -1,0 +1,59 @@
+
+    /* Styles pour le corps de la page */
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+
+    /* Styles pour l'en-tête (titre du blog) */
+    .header {
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background-color: white;
+    }
+
+    /* Styles pour les colonnes (articles et widgets) */
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .leftcolumn {
+        float: left;
+        width: 75%;
+    }
+
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    /* Styles pour les articles */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* Style pour les images fictives */
+
+
+    /* Style pour le pied de page */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background-color: #ddd;
+        margin-top: 20px;
+    }
+
+    /* Mise en page responsive - lorsque l'écran est inférieur à 800px, empilez les deux colonnes */
+    @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
